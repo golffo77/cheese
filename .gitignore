@@ -1,0 +1,9 @@
+node_modules/
+.next/
+.env*.local
+.DS_Store
+*.tsbuildinfo
+yolo-service/__pycache__/
+yolo-service/.venv/
+yolo-service/models/*.pt
+error/

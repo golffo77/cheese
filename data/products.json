@@ -1,0 +1,90 @@
+[
+  {
+    "id": "gruyere-aop",
+    "name": "Gruyère AOP",
+    "origin": "Fribourg, CH",
+    "fat": "45%",
+    "price_per_100g": 3.50,
+    "currency": "CHF",
+    "aging": "6-12 Monate",
+    "description": "Würziger Hartkäse aus der Schweiz mit nussigem Aroma. Hervorragend zum Überbacken und als Tafelkäse.",
+    "labelKeywords": ["Gruyère", "Gruyere", "AOP", "Gruyère AOP"]
+  },
+  {
+    "id": "emmentaler-aop",
+    "name": "Emmentaler AOP",
+    "origin": "Emmental, CH",
+    "fat": "45%",
+    "price_per_100g": 2.80,
+    "currency": "CHF",
+    "aging": "4-8 Monate",
+    "description": "Der klassische Schweizer Käse mit den charakteristischen Löchern. Mild-nussiger Geschmack.",
+    "labelKeywords": ["Emmentaler", "Emmental", "AOP", "Emmentaler AOP"]
+  },
+  {
+    "id": "appenzeller",
+    "name": "Appenzeller",
+    "origin": "Appenzell, CH",
+    "fat": "48%",
+    "price_per_100g": 3.20,
+    "currency": "CHF",
+    "aging": "3-6 Monate",
+    "description": "Würzig-pikanter Käse aus dem Appenzellerland. Mit Kräutersud gepflegt für einzigartiges Aroma.",
+    "labelKeywords": ["Appenzeller", "Appenzell", "Alpenkäse"]
+  },
+  {
+    "id": "raclette",
+    "name": "Raclette du Valais",
+    "origin": "Wallis, CH",
+    "fat": "45%",
+    "price_per_100g": 2.90,
+    "currency": "CHF",
+    "aging": "3-6 Monate",
+    "description": "Traditioneller Walliser Schmelzkäse. Der ideale Käse für Raclette-Abende.",
+    "labelKeywords": ["Raclette", "Valais", "Wallis", "Raclette du Valais"]
+  },
+  {
+    "id": "comté-aop",
+    "name": "Comté AOP",
+    "origin": "Franche-Comté, FR",
+    "fat": "45%",
+    "price_per_100g": 3.80,
+    "currency": "CHF",
+    "aging": "12-18 Monate",
+    "description": "Französischer Hartkäse mit fruchtig-nussigem Geschmack. AOP-zertifiziert aus dem Jura.",
+    "labelKeywords": ["Comté", "Comte", "AOP", "Comté AOP", "Franche-Comté"]
+  },
+  {
+    "id": "brie-de-meaux",
+    "name": "Brie de Meaux AOP",
+    "origin": "Seine-et-Marne, FR",
+    "fat": "45%",
+    "price_per_100g": 2.60,
+    "currency": "CHF",
+    "aging": "4-8 Wochen",
+    "description": "König der Weichkäse mit cremigem Kern und essbarer Weissschimmelrinde.",
+    "labelKeywords": ["Brie", "Brie de Meaux", "Meaux", "AOP"]
+  },
+  {
+    "id": "parmesan",
+    "name": "Parmigiano Reggiano DOP",
+    "origin": "Parma, IT",
+    "fat": "32%",
+    "price_per_100g": 4.50,
+    "currency": "CHF",
+    "aging": "24-36 Monate",
+    "description": "Der König der italienischen Käse. Hart, trocken und intensiv im Geschmack.",
+    "labelKeywords": ["Parmigiano", "Reggiano", "Parmesan", "DOP", "Parmigiano Reggiano"]
+  },
+  {
+    "id": "tilsiter",
+    "name": "Tilsiter",
+    "origin": "Thurgau, CH",
+    "fat": "45%",
+    "price_per_100g": 2.40,
+    "currency": "CHF",
+    "aging": "2-4 Monate",
+    "description": "Mild-würziger Schnittkäse aus dem Thurgau. Vielseitig einsetzbar.",
+    "labelKeywords": ["Tilsiter", "Tilsit", "Thurgauer"]
+  }
+]
