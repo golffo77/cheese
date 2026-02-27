@@ -1,6 +1,7 @@
 'use client';
 
 import { useState, useEffect, useRef, useCallback } from 'react';
+import Link from 'next/link';
 import { QueueTicket } from '@/types/queue';
 import QueuePanel from '@/components/seller/QueuePanel';
 import CuttingTableStream from '@/components/seller/CuttingTableStream';
@@ -17,6 +18,7 @@ export default function SellerPage() {
     address?: string;
   } | null>(null);
   const [cameraDevices, setCameraDevices] = useState<MediaDeviceInfo[]>([]);
+  const [httpsError, setHttpsError] = useState(false);
   const [cam1Stream, setCam1Stream] = useState<MediaStream | null>(null);
   const [cam2DeviceId, setCam2DeviceId] = useState<string | undefined>(undefined);
 
@@ -30,7 +32,7 @@ export default function SellerPage() {
     if (!socket.isConnected) return;
 
     if (!navigator.mediaDevices?.enumerateDevices) {
-      console.error('[Seller] navigator.mediaDevices nicht verfügbar – HTTPS erforderlich (oder chrome://flags/#unsafely-treat-insecure-origin-as-secure)');
+      setHttpsError(true);
       return;
     }
 
@@ -205,44 +207,48 @@ export default function SellerPage() {
   };
 
   return (
-    <main className="min-h-screen bg-stone-100 dark:bg-stone-950">
-      {/* Header */}
-      <header className="bg-white dark:bg-stone-900 border-b border-stone-200 dark:border-stone-800 sticky top-0 z-10">
-        <div className="max-w-7xl mx-auto px-4 py-3 flex items-center justify-between">
-          <div className="flex items-center gap-3">
-            <span className="text-2xl">🧀</span>
-            <div>
-              <h1 className="font-bold text-stone-800 dark:text-stone-200 leading-tight">
-                Verkäufer-Dashboard
-              </h1>
-              <p className="text-xs text-stone-500 dark:text-stone-400">
-                Käsetheke Digital – Interne Ansicht
-              </p>
-            </div>
-          </div>
-          <div className="flex items-center gap-3">
-            {/* Add instore ticket */}
-            <button
-              onClick={async () => {
-                await fetch('/api/queue', {
-                  method: 'POST',
-                  headers: { 'Content-Type': 'application/json' },
-                  body: JSON.stringify({ type: 'instore' }),
-                });
-              }}
-              className="text-xs bg-stone-100 dark:bg-stone-800 hover:bg-stone-200 dark:hover:bg-stone-700 text-stone-700 dark:text-stone-300 px-3 py-1.5 rounded-lg transition-colors border border-stone-200 dark:border-stone-700"
-            >
-              + Vor-Ort-Ticket
-            </button>
-            <div className="flex items-center gap-1.5">
-              <div className={`w-2 h-2 rounded-full ${socket.isConnected ? 'bg-green-500' : 'bg-red-400'}`} />
-              <span className="text-xs text-stone-500 dark:text-stone-400">
-                {socket.isConnected ? 'Verbunden' : 'Offline'}
-              </span>
-            </div>
+    <main className="min-h-screen bg-[#F9F6F1]" style={{ fontFamily: 'var(--font-inter), Inter, sans-serif' }}>
+
+      {/* Navigation */}
+      <header className="bg-[#F9F6F1] h-20 flex items-center justify-between px-16 sticky top-0 z-10 border-b border-[#E8DFD0]">
+        <Link href="/" className="text-[28px] text-[#2C2416]" style={{ fontFamily: 'var(--font-playfair), serif', fontStyle: 'italic' }}>
+          Käserei
+        </Link>
+        <h1 className="text-[15px] font-medium text-[#7A6040]">Verkäufer-Dashboard</h1>
+        <div className="flex items-center gap-6">
+          <button
+            onClick={async () => {
+              await fetch('/api/queue', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({ type: 'instore' }),
+              });
+            }}
+            className="border border-[#2C2416] text-[#2C2416] text-[13px] font-medium px-4 py-2 rounded-sm hover:bg-[#E8DFD0] transition-colors"
+          >
+            + Vor-Ort-Ticket
+          </button>
+          <div className="flex items-center gap-2">
+            <div className={`w-2 h-2 rounded-full ${socket.isConnected ? 'bg-green-500' : 'bg-red-400'}`} />
+            <span className="text-[13px] text-[#7A6040]">
+              {socket.isConnected ? 'Verbunden' : 'Offline'}
+            </span>
           </div>
         </div>
       </header>
+
+      {/* HTTPS warning banner */}
+      {httpsError && (
+        <div className="bg-amber-50 border-b border-amber-200 px-16 py-3 flex items-center gap-3">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#b45309" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M10.29 3.86 1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"/><line x1="12" y1="9" x2="12" y2="13"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg>
+          <p className="text-[13px] text-amber-800">
+            <strong>Kamera nicht verfügbar:</strong> Bitte öffne die Seite über{' '}
+            <code className="bg-amber-100 px-1 rounded">localhost</code> (nicht per IP) oder aktiviere HTTPS.
+            Chrome-Workaround:{' '}
+            <code className="bg-amber-100 px-1 rounded">chrome://flags/#unsafely-treat-insecure-origin-as-secure</code>
+          </p>
+        </div>
+      )}
 
       {/* Payment notification */}
       {paymentNotification && (
@@ -269,7 +275,7 @@ export default function SellerPage() {
         </div>
       )}
 
-      <div className="max-w-7xl mx-auto px-4 py-6">
+      <div className="max-w-7xl mx-auto px-6 py-6">
         <div className="grid lg:grid-cols-3 gap-6">
           {/* Queue panel – takes 1 column */}
           <div className="lg:col-span-1">

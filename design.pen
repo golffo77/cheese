@@ -1,0 +1,2762 @@
+{
+  "version": "2.8",
+  "children": [
+    {
+      "type": "frame",
+      "id": "s1h3B",
+      "x": 0,
+      "y": 0,
+      "name": "Käse Shop — Startseite",
+      "width": 1440,
+      "fill": "#F9F6F1",
+      "layout": "vertical",
+      "children": [
+        {
+          "type": "frame",
+          "id": "YZ4uZ",
+          "name": "Navigation",
+          "width": "fill_container",
+          "height": 80,
+          "fill": "#F9F6F1",
+          "padding": [
+            0,
+            64
+          ],
+          "justifyContent": "space_between",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "bXk6B",
+              "name": "logo",
+              "fill": "#2C2416",
+              "content": "Käserei",
+              "fontFamily": "Playfair Display",
+              "fontSize": 28,
+              "fontWeight": "normal",
+              "fontStyle": "italic"
+            },
+            {
+              "type": "frame",
+              "id": "XRciQ",
+              "name": "navLinks",
+              "gap": 48,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "IHrkY",
+                  "name": "nl1",
+                  "fill": "#2C2416",
+                  "content": "Sortiment",
+                  "fontFamily": "Inter",
+                  "fontSize": 15,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "548zl",
+                  "name": "nl2",
+                  "fill": "#2C2416",
+                  "content": "Erzeuger",
+                  "fontFamily": "Inter",
+                  "fontSize": 15,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "XuSA4",
+                  "name": "nl3",
+                  "fill": "#2C2416",
+                  "content": "Wissen",
+                  "fontFamily": "Inter",
+                  "fontSize": 15,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "Vzaft",
+                  "name": "nl4",
+                  "fill": "#2C2416",
+                  "content": "Über uns",
+                  "fontFamily": "Inter",
+                  "fontSize": 15,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "JEt2H",
+              "name": "navRight",
+              "gap": 24,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "icon_font",
+                  "id": "szxeR",
+                  "name": "searchBtn",
+                  "width": 22,
+                  "height": 22,
+                  "iconFontName": "search",
+                  "iconFontFamily": "lucide",
+                  "fill": "#2C2416"
+                },
+                {
+                  "type": "frame",
+                  "id": "gqDWu",
+                  "name": "cartBtn",
+                  "fill": "#2C2416",
+                  "cornerRadius": 2,
+                  "padding": [
+                    10,
+                    20
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "skbnu",
+                      "name": "cartTxt",
+                      "fill": "#F9F6F1",
+                      "content": "Warenkorb",
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "500"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "ELtyI",
+          "name": "Hero",
+          "width": "fill_container",
+          "height": 620,
+          "children": [
+            {
+              "type": "frame",
+              "id": "tHOYM",
+              "name": "Hero Left",
+              "width": "fill_container",
+              "height": "fill_container",
+              "layout": "vertical",
+              "gap": 32,
+              "padding": [
+                80,
+                64
+              ],
+              "justifyContent": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "MWx03",
+                  "name": "heroTag",
+                  "fill": "#E8DFD0",
+                  "cornerRadius": 20,
+                  "padding": [
+                    6,
+                    16
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "0xDEL",
+                      "name": "heroTagTxt",
+                      "fill": "#7A6040",
+                      "content": "Handwerkliche Käsekultur",
+                      "fontFamily": "Inter",
+                      "fontSize": 12,
+                      "fontWeight": "500"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "id": "GX8wJ",
+                  "name": "heroH1",
+                  "fill": "#2C2416",
+                  "textGrowth": "fixed-width",
+                  "width": 560,
+                  "content": "Vom Stall\nzum Tisch.",
+                  "lineHeight": 1.05,
+                  "fontFamily": "Playfair Display",
+                  "fontSize": 72,
+                  "fontWeight": "normal",
+                  "fontStyle": "italic"
+                },
+                {
+                  "type": "text",
+                  "id": "xssgf",
+                  "name": "heroSub",
+                  "fill": "#6B5C45",
+                  "textGrowth": "fixed-width",
+                  "width": 440,
+                  "content": "Entdecke authentischen Käse direkt von regionalen Erzeugern — frisch, rein und mit Geschichte.",
+                  "lineHeight": 1.6,
+                  "fontFamily": "Inter",
+                  "fontSize": 17,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "frame",
+                  "id": "EcwpV",
+                  "name": "heroCtas",
+                  "gap": 16,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "AxGwi",
+                      "name": "heroCta1",
+                      "fill": "#2C2416",
+                      "cornerRadius": 2,
+                      "padding": [
+                        16,
+                        32
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "SQh7B",
+                          "name": "heroCta1Txt",
+                          "fill": "#F9F6F1",
+                          "content": "Erzeuger entdecken",
+                          "fontFamily": "Inter",
+                          "fontSize": 15,
+                          "fontWeight": "500"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "3XTrf",
+                      "name": "heroCta2",
+                      "fill": "transparent",
+                      "cornerRadius": 2,
+                      "stroke": {
+                        "align": "inside",
+                        "thickness": 1.5,
+                        "fill": "#2C2416"
+                      },
+                      "padding": [
+                        16,
+                        32
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "PLnDj",
+                          "name": "heroCta2Txt",
+                          "fill": "#2C2416",
+                          "content": "Mehr erfahren",
+                          "fontFamily": "Inter",
+                          "fontSize": 15,
+                          "fontWeight": "500"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "zGRDt",
+              "name": "Hero Image",
+              "metadata": {
+                "type": "unsplash",
+                "username": "ferencfegyenc",
+                "link": "https://unsplash.com/@ferencfegyenc",
+                "author": "Test Elek"
+              },
+              "clip": true,
+              "width": 660,
+              "height": "fill_container",
+              "fill": {
+                "type": "image",
+                "enabled": true,
+                "url": "https://images.unsplash.com/photo-1664876642403-36c98ce2c910?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzIxMDkyNzZ8&ixlib=rb-4.1.0&q=80&w=1080",
+                "mode": "fill"
+              },
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "rOigo",
+                  "name": "heroOverlay",
+                  "width": "fill_container",
+                  "height": "fill_container",
+                  "fill": {
+                    "type": "gradient",
+                    "gradientType": "linear",
+                    "enabled": true,
+                    "rotation": 0,
+                    "size": {
+                      "height": 1
+                    },
+                    "colors": [
+                      {
+                        "color": "#F9F6F1CC",
+                        "position": 0
+                      },
+                      {
+                        "color": "#F9F6F100",
+                        "position": 0.4
+                      }
+                    ]
+                  },
+                  "layout": "none"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "KKAJG",
+          "name": "Trust Bar",
+          "width": "fill_container",
+          "height": 80,
+          "fill": "#2C2416",
+          "gap": 80,
+          "justifyContent": "center",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "6tOyC",
+              "name": "tb1",
+              "gap": 12,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "icon_font",
+                  "id": "1ZTEu",
+                  "name": "tb1Icon",
+                  "width": 18,
+                  "height": 18,
+                  "iconFontName": "leaf",
+                  "iconFontFamily": "lucide",
+                  "fill": "#C8A97E"
+                },
+                {
+                  "type": "text",
+                  "id": "KjUdF",
+                  "name": "tb1Txt",
+                  "fill": "#F9F6F1",
+                  "content": "100% Naturprodukte",
+                  "fontFamily": "Inter",
+                  "fontSize": 13,
+                  "fontWeight": "500"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "lS7Pc",
+              "name": "tb2",
+              "gap": 12,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "icon_font",
+                  "id": "SAM12",
+                  "name": "tb2Icon",
+                  "width": 18,
+                  "height": 18,
+                  "iconFontName": "map-pin",
+                  "iconFontFamily": "lucide",
+                  "fill": "#C8A97E"
+                },
+                {
+                  "type": "text",
+                  "id": "TG77v",
+                  "name": "tb2Txt",
+                  "fill": "#F9F6F1",
+                  "content": "Direkt vom Erzeuger",
+                  "fontFamily": "Inter",
+                  "fontSize": 13,
+                  "fontWeight": "500"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "66Tha",
+              "name": "tb3",
+              "gap": 12,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "icon_font",
+                  "id": "u7XWY",
+                  "name": "tb3Icon",
+                  "width": 18,
+                  "height": 18,
+                  "iconFontName": "shield-check",
+                  "iconFontFamily": "lucide",
+                  "fill": "#C8A97E"
+                },
+                {
+                  "type": "text",
+                  "id": "MAUOG",
+                  "name": "tb3Txt",
+                  "fill": "#F9F6F1",
+                  "content": "Geprüfte Qualität",
+                  "fontFamily": "Inter",
+                  "fontSize": 13,
+                  "fontWeight": "500"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "K9AKe",
+              "name": "tb4",
+              "gap": 12,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "icon_font",
+                  "id": "viExk",
+                  "name": "tb4Icon",
+                  "width": 18,
+                  "height": 18,
+                  "iconFontName": "truck",
+                  "iconFontFamily": "lucide",
+                  "fill": "#C8A97E"
+                },
+                {
+                  "type": "text",
+                  "id": "mS7lH",
+                  "name": "tb4Txt",
+                  "fill": "#F9F6F1",
+                  "content": "Frische Lieferung",
+                  "fontFamily": "Inter",
+                  "fontSize": 13,
+                  "fontWeight": "500"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "qjtTM",
+          "name": "Erzeuger Sektion",
+          "width": "fill_container",
+          "fill": "#F9F6F1",
+          "layout": "vertical",
+          "gap": 48,
+          "padding": [
+            80,
+            64
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "1p6t6",
+              "name": "sellerHeader",
+              "width": "fill_container",
+              "justifyContent": "space_between",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "7icof",
+                  "name": "sellerTitle",
+                  "layout": "vertical",
+                  "gap": 12,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "wyKb8",
+                      "name": "sellerTag2",
+                      "fill": "#7A6040",
+                      "content": "— Unsere Erzeuger",
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "500"
+                    },
+                    {
+                      "type": "text",
+                      "id": "E8fRJ",
+                      "name": "sellerH2",
+                      "fill": "#2C2416",
+                      "textGrowth": "fixed-width",
+                      "width": 480,
+                      "content": "Wähle deinen\nLieblingserzeuger",
+                      "lineHeight": 1.1,
+                      "fontFamily": "Playfair Display",
+                      "fontSize": 48,
+                      "fontWeight": "normal",
+                      "fontStyle": "italic"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "m8RVU",
+                  "name": "sellerViewAll",
+                  "gap": 8,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "4SAwH",
+                      "name": "sellerViewAllTxt",
+                      "fill": "#2C2416",
+                      "content": "Alle anzeigen",
+                      "fontFamily": "Inter",
+                      "fontSize": 14,
+                      "fontWeight": "500"
+                    },
+                    {
+                      "type": "icon_font",
+                      "id": "xe2EE",
+                      "name": "sellerViewAllIcon",
+                      "width": 18,
+                      "height": 18,
+                      "iconFontName": "arrow-right",
+                      "iconFontFamily": "lucide",
+                      "fill": "#2C2416"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "ZSRm6",
+              "name": "Sellers Grid",
+              "width": "fill_container",
+              "gap": 24,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "FLKnx",
+                  "name": "Seller Card 1",
+                  "clip": true,
+                  "width": "fill_container",
+                  "fill": "#FFFFFF",
+                  "cornerRadius": 4,
+                  "layout": "vertical",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "DTBsx",
+                      "name": "sc1Img",
+                      "metadata": {
+                        "type": "unsplash",
+                        "username": "devudara",
+                        "link": "https://unsplash.com/@devudara",
+                        "author": "Udara"
+                      },
+                      "clip": true,
+                      "width": "fill_container",
+                      "height": 240,
+                      "fill": {
+                        "type": "image",
+                        "enabled": true,
+                        "url": "https://images.unsplash.com/photo-1659367057365-7e62f61c2d3b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzIxMDkyNjZ8&ixlib=rb-4.1.0&q=80&w=1080",
+                        "mode": "fill"
+                      }
+                    },
+                    {
+                      "type": "frame",
+                      "id": "ZuWVu",
+                      "name": "sc1Body",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 10,
+                      "padding": 20,
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "LxiSn",
+                          "name": "sc1Live",
+                          "gap": 6,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "ellipse",
+                              "id": "Fs6Ma",
+                              "name": "sc1LiveDot",
+                              "fill": "#E05A2B",
+                              "width": 8,
+                              "height": 8
+                            },
+                            {
+                              "type": "text",
+                              "id": "XTr5g",
+                              "name": "sc1LiveTxt",
+                              "fill": "#E05A2B",
+                              "content": "LIVE",
+                              "fontFamily": "Inter",
+                              "fontSize": 11,
+                              "fontWeight": "500"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "id": "sLQ13",
+                          "name": "sc1Name",
+                          "fill": "#2C2416",
+                          "content": "Alpenwiese Sennerei",
+                          "fontFamily": "Playfair Display",
+                          "fontSize": 20,
+                          "fontWeight": "normal",
+                          "fontStyle": "italic"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "CseRv",
+                          "name": "sc1Loc",
+                          "gap": 6,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "icon_font",
+                              "id": "Q0iOq",
+                              "name": "sc1LocIcon",
+                              "width": 14,
+                              "height": 14,
+                              "iconFontName": "map-pin",
+                              "iconFontFamily": "lucide",
+                              "fill": "#7A6040"
+                            },
+                            {
+                              "type": "text",
+                              "id": "8eL8b",
+                              "name": "sc1LocTxt",
+                              "fill": "#7A6040",
+                              "content": "Berchtesgaden, Bayern",
+                              "fontFamily": "Inter",
+                              "fontSize": 13,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "id": "UUmZN",
+                          "name": "sc1Desc",
+                          "fill": "#6B5C45",
+                          "textGrowth": "fixed-width",
+                          "width": 260,
+                          "content": "Traditionelle Bergkäse-Herstellung nach altem Familienrezept seit 1892.",
+                          "lineHeight": 1.5,
+                          "fontFamily": "Inter",
+                          "fontSize": 13,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "Qv3yC",
+                          "name": "sc1Btn",
+                          "width": "fill_container",
+                          "fill": "#2C2416",
+                          "cornerRadius": 2,
+                          "padding": [
+                            12,
+                            20
+                          ],
+                          "justifyContent": "center",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "ka2F1",
+                              "name": "sc1BtnTxt",
+                              "fill": "#F9F6F1",
+                              "content": "Angebot ansehen →",
+                              "fontFamily": "Inter",
+                              "fontSize": 13,
+                              "fontWeight": "500"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "mgjuT",
+                  "name": "Seller Card 2",
+                  "clip": true,
+                  "width": "fill_container",
+                  "fill": "#FFFFFF",
+                  "cornerRadius": 4,
+                  "layout": "vertical",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "FVnX0",
+                      "name": "sc2Img",
+                      "metadata": {
+                        "type": "unsplash",
+                        "username": "zoshuacolah",
+                        "link": "https://unsplash.com/@zoshuacolah",
+                        "author": "Zoshua Colah"
+                      },
+                      "clip": true,
+                      "width": "fill_container",
+                      "height": 240,
+                      "fill": {
+                        "type": "image",
+                        "enabled": true,
+                        "url": "https://images.unsplash.com/photo-1739066112286-be4f0662ec9f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzIxMDkwODB8&ixlib=rb-4.1.0&q=80&w=1080",
+                        "mode": "fill"
+                      }
+                    },
+                    {
+                      "type": "frame",
+                      "id": "fsN6n",
+                      "name": "sc2Body",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 10,
+                      "padding": 20,
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "4XKcd",
+                          "name": "sc2Live",
+                          "gap": 6,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "ellipse",
+                              "id": "bkcuN",
+                              "name": "sc2LiveDot",
+                              "fill": "#E05A2B",
+                              "width": 8,
+                              "height": 8
+                            },
+                            {
+                              "type": "text",
+                              "id": "nOjJR",
+                              "name": "sc2LiveTxt",
+                              "fill": "#E05A2B",
+                              "content": "LIVE",
+                              "fontFamily": "Inter",
+                              "fontSize": 11,
+                              "fontWeight": "500"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "id": "bdEjz",
+                          "name": "sc2Name",
+                          "fill": "#2C2416",
+                          "content": "Ziegenhof Mühlbach",
+                          "fontFamily": "Playfair Display",
+                          "fontSize": 20,
+                          "fontWeight": "normal",
+                          "fontStyle": "italic"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "raSGP",
+                          "name": "sc2Loc",
+                          "gap": 6,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "icon_font",
+                              "id": "5pbyX",
+                              "name": "sc2LocIcon",
+                              "width": 14,
+                              "height": 14,
+                              "iconFontName": "map-pin",
+                              "iconFontFamily": "lucide",
+                              "fill": "#7A6040"
+                            },
+                            {
+                              "type": "text",
+                              "id": "A1JeP",
+                              "name": "sc2LocTxt",
+                              "fill": "#7A6040",
+                              "content": "Freiburg im Breisgau",
+                              "fontFamily": "Inter",
+                              "fontSize": 13,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "id": "z15AR",
+                          "name": "sc2Desc",
+                          "fill": "#6B5C45",
+                          "textGrowth": "fixed-width",
+                          "width": 260,
+                          "content": "Bio-zertifizierte Ziegenkäserei mit eigenem Weidegang und saisonalem Angebot.",
+                          "lineHeight": 1.5,
+                          "fontFamily": "Inter",
+                          "fontSize": 13,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "qOB5r",
+                          "name": "sc2Btn",
+                          "width": "fill_container",
+                          "fill": "#2C2416",
+                          "cornerRadius": 2,
+                          "padding": [
+                            12,
+                            20
+                          ],
+                          "justifyContent": "center",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "XbCHP",
+                              "name": "sc2BtnTxt",
+                              "fill": "#F9F6F1",
+                              "content": "Angebot ansehen →",
+                              "fontFamily": "Inter",
+                              "fontSize": 13,
+                              "fontWeight": "500"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "IBg3F",
+                  "name": "Seller Card 3",
+                  "clip": true,
+                  "width": "fill_container",
+                  "fill": "#FFFFFF",
+                  "cornerRadius": 4,
+                  "layout": "vertical",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "oqRV2",
+                      "name": "sc3Img",
+                      "metadata": {
+                        "type": "unsplash",
+                        "username": "hiresayan",
+                        "link": "https://unsplash.com/@hiresayan",
+                        "author": "sayan Nath"
+                      },
+                      "clip": true,
+                      "width": "fill_container",
+                      "height": 240,
+                      "fill": {
+                        "type": "image",
+                        "enabled": true,
+                        "url": "https://images.unsplash.com/photo-1764685808717-2c2a6ec91f4d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzIxMDkwODl8&ixlib=rb-4.1.0&q=80&w=1080",
+                        "mode": "fill"
+                      }
+                    },
+                    {
+                      "type": "frame",
+                      "id": "yiU3q",
+                      "name": "sc3Body",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 10,
+                      "padding": 20,
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "DqNSN",
+                          "name": "sc3Tag",
+                          "fill": "#E8DFD0",
+                          "cornerRadius": 2,
+                          "padding": [
+                            4,
+                            10
+                          ],
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "BSfja",
+                              "name": "sc3TagTxt",
+                              "fill": "#7A6040",
+                              "content": "Heute offline",
+                              "fontFamily": "Inter",
+                              "fontSize": 11,
+                              "fontWeight": "500"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "id": "uV7ky",
+                          "name": "sc3Name",
+                          "fill": "#2C2416",
+                          "content": "Käsekeller Donauland",
+                          "fontFamily": "Playfair Display",
+                          "fontSize": 20,
+                          "fontWeight": "normal",
+                          "fontStyle": "italic"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "khtBa",
+                          "name": "sc3Loc",
+                          "gap": 6,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "icon_font",
+                              "id": "TLDF6",
+                              "name": "sc3LocIcon",
+                              "width": 14,
+                              "height": 14,
+                              "iconFontName": "map-pin",
+                              "iconFontFamily": "lucide",
+                              "fill": "#7A6040"
+                            },
+                            {
+                              "type": "text",
+                              "id": "ATLr9",
+                              "name": "sc3LocTxt",
+                              "fill": "#7A6040",
+                              "content": "Regensburg, Bayern",
+                              "fontFamily": "Inter",
+                              "fontSize": 13,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "id": "WNcfm",
+                          "name": "sc3Desc",
+                          "fill": "#6B5C45",
+                          "textGrowth": "fixed-width",
+                          "width": 260,
+                          "content": "Reifekäse in historischen Gewölbekellern – Geduld ist das Geheimnis unserer Aromen.",
+                          "lineHeight": 1.5,
+                          "fontFamily": "Inter",
+                          "fontSize": 13,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "IVMnk",
+                          "name": "sc3Btn",
+                          "width": "fill_container",
+                          "fill": "#E8DFD0",
+                          "cornerRadius": 2,
+                          "padding": [
+                            12,
+                            20
+                          ],
+                          "justifyContent": "center",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "sSIpU",
+                              "name": "sc3BtnTxt",
+                              "fill": "#7A6040",
+                              "content": "Angebot ansehen →",
+                              "fontFamily": "Inter",
+                              "fontSize": 13,
+                              "fontWeight": "500"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "fQlnP",
+          "name": "Info Sektion",
+          "width": "fill_container",
+          "fill": "#EDE6DA",
+          "children": [
+            {
+              "type": "frame",
+              "id": "zgJMY",
+              "name": "infoLeft",
+              "width": "fill_container",
+              "height": 480,
+              "layout": "vertical",
+              "gap": 32,
+              "padding": 64,
+              "justifyContent": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "V3DWc",
+                  "name": "infoTag3",
+                  "fill": "#7A6040",
+                  "content": "— Vom Ursprung zum Genuss",
+                  "fontFamily": "Inter",
+                  "fontSize": 12,
+                  "fontWeight": "500"
+                },
+                {
+                  "type": "text",
+                  "id": "8PIeT",
+                  "name": "infoH3",
+                  "fill": "#2C2416",
+                  "textGrowth": "fixed-width",
+                  "width": 420,
+                  "content": "Käse mit\nGeschichte.",
+                  "lineHeight": 1.1,
+                  "fontFamily": "Playfair Display",
+                  "fontSize": 52,
+                  "fontWeight": "normal",
+                  "fontStyle": "italic"
+                },
+                {
+                  "type": "text",
+                  "id": "bmcnS",
+                  "name": "infoText",
+                  "fill": "#6B5C45",
+                  "textGrowth": "fixed-width",
+                  "width": 400,
+                  "content": "Jede Sorte erzählt von ihrer Region, dem Klima und den Menschen, die sie mit Sorgfalt herstellen. Wir verbinden dich direkt mit den Erzeugern — transparent, fair und leidenschaftlich.",
+                  "lineHeight": 1.7,
+                  "fontFamily": "Inter",
+                  "fontSize": 16,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "frame",
+                  "id": "0rgX1",
+                  "name": "infoFeats",
+                  "layout": "vertical",
+                  "gap": 16,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "MxDy2",
+                      "name": "if1",
+                      "gap": 12,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon_font",
+                          "id": "0KyD6",
+                          "name": "if1Icon",
+                          "width": 18,
+                          "height": 18,
+                          "iconFontName": "circle-check",
+                          "iconFontFamily": "lucide",
+                          "fill": "#7A6040"
+                        },
+                        {
+                          "type": "text",
+                          "id": "alhvh",
+                          "name": "if1Txt",
+                          "fill": "#2C2416",
+                          "content": "Direkte Lieferkette ohne Zwischenhändler",
+                          "fontFamily": "Inter",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "tyxzV",
+                      "name": "if2",
+                      "gap": 12,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon_font",
+                          "id": "n2Wj9",
+                          "name": "if2Icon",
+                          "width": 18,
+                          "height": 18,
+                          "iconFontName": "circle-check",
+                          "iconFontFamily": "lucide",
+                          "fill": "#7A6040"
+                        },
+                        {
+                          "type": "text",
+                          "id": "TuE1d",
+                          "name": "if2Txt",
+                          "fill": "#2C2416",
+                          "content": "Live-Einblicke in die Käseproduktion",
+                          "fontFamily": "Inter",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "wJYC7",
+                      "name": "if3",
+                      "gap": 12,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon_font",
+                          "id": "iJ54L",
+                          "name": "if3Icon",
+                          "width": 18,
+                          "height": 18,
+                          "iconFontName": "circle-check",
+                          "iconFontFamily": "lucide",
+                          "fill": "#7A6040"
+                        },
+                        {
+                          "type": "text",
+                          "id": "tGqOv",
+                          "name": "if3Txt",
+                          "fill": "#2C2416",
+                          "content": "Saisonale und regionale Spezialitäten",
+                          "fontFamily": "Inter",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "f5LAr",
+              "name": "Info Image",
+              "metadata": {
+                "type": "unsplash",
+                "username": "cmrcn_",
+                "link": "https://unsplash.com/@cmrcn_",
+                "author": "Cemrecan Yurtman"
+              },
+              "clip": true,
+              "width": 560,
+              "height": 480,
+              "fill": {
+                "type": "image",
+                "enabled": true,
+                "url": "https://images.unsplash.com/photo-1736788265300-e1b8daab0ae7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzIxMDkxMTF8&ixlib=rb-4.1.0&q=80&w=1080",
+                "mode": "fill"
+              }
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "RDqcZ",
+          "name": "Footer",
+          "width": "fill_container",
+          "fill": "#2C2416",
+          "layout": "vertical",
+          "children": [
+            {
+              "type": "frame",
+              "id": "EeiFP",
+              "name": "footerTop",
+              "width": "fill_container",
+              "gap": 48,
+              "padding": [
+                60,
+                64
+              ],
+              "justifyContent": "space_between",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "DGSwZ",
+                  "name": "footerLogo",
+                  "width": 280,
+                  "layout": "vertical",
+                  "gap": 16,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "1kNwa",
+                      "name": "footerLogoTxt",
+                      "fill": "#F9F6F1",
+                      "content": "Käserei",
+                      "fontFamily": "Playfair Display",
+                      "fontSize": 32,
+                      "fontWeight": "normal",
+                      "fontStyle": "italic"
+                    },
+                    {
+                      "type": "text",
+                      "id": "j1tfb",
+                      "name": "footerTagline",
+                      "fill": "#A08060",
+                      "textGrowth": "fixed-width",
+                      "width": 260,
+                      "content": "Authentischer Käse, direkt vom Erzeuger zu dir.",
+                      "lineHeight": 1.6,
+                      "fontFamily": "Inter",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "58J2A",
+                      "name": "footerSocial",
+                      "gap": 16,
+                      "children": [
+                        {
+                          "type": "icon_font",
+                          "id": "tZCeA",
+                          "name": "footerIG",
+                          "width": 20,
+                          "height": 20,
+                          "iconFontName": "instagram",
+                          "iconFontFamily": "lucide",
+                          "fill": "#A08060"
+                        },
+                        {
+                          "type": "icon_font",
+                          "id": "03zcL",
+                          "name": "footerFB",
+                          "width": 20,
+                          "height": 20,
+                          "iconFontName": "facebook",
+                          "iconFontFamily": "lucide",
+                          "fill": "#A08060"
+                        },
+                        {
+                          "type": "icon_font",
+                          "id": "cuo1C",
+                          "name": "footerYT",
+                          "width": 20,
+                          "height": 20,
+                          "iconFontName": "youtube",
+                          "iconFontFamily": "lucide",
+                          "fill": "#A08060"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "xZupW",
+                  "name": "footerCol1",
+                  "layout": "vertical",
+                  "gap": 16,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "xYy6z",
+                      "name": "footerCol1H",
+                      "fill": "#F9F6F1",
+                      "content": "Shop",
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "500"
+                    },
+                    {
+                      "type": "text",
+                      "id": "YVv4E",
+                      "name": "footerL1",
+                      "fill": "#A08060",
+                      "content": "Alle Käsesorten",
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "hrOVb",
+                      "name": "footerL2",
+                      "fill": "#A08060",
+                      "content": "Erzeuger",
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "GlhVn",
+                      "name": "footerL3",
+                      "fill": "#A08060",
+                      "content": "Saisonangebot",
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "2gvFR",
+                      "name": "footerL4",
+                      "fill": "#A08060",
+                      "content": "Geschenksets",
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "vHJ5J",
+                  "name": "footerCol2",
+                  "layout": "vertical",
+                  "gap": 16,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "tZPvk",
+                      "name": "footerCol2H",
+                      "fill": "#F9F6F1",
+                      "content": "Wissen",
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "500"
+                    },
+                    {
+                      "type": "text",
+                      "id": "XUB42",
+                      "name": "footerK1",
+                      "fill": "#A08060",
+                      "content": "Käsekunde",
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "GFz4d",
+                      "name": "footerK2",
+                      "fill": "#A08060",
+                      "content": "Herstellung",
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "UnsMf",
+                      "name": "footerK3",
+                      "fill": "#A08060",
+                      "content": "Regionen",
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "7Hfct",
+                      "name": "footerK4",
+                      "fill": "#A08060",
+                      "content": "Blog",
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "lYBY7",
+              "name": "footerBottom",
+              "width": "fill_container",
+              "height": 56,
+              "fill": "#1E1810",
+              "padding": [
+                0,
+                64
+              ],
+              "justifyContent": "space_between",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "EpLhe",
+                  "name": "fbCopyright",
+                  "fill": "#6B5040",
+                  "content": "© 2025 Käserei. Alle Rechte vorbehalten.",
+                  "fontFamily": "Inter",
+                  "fontSize": 12,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "frame",
+                  "id": "C2kSA",
+                  "name": "fbLinks",
+                  "gap": 32,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "WDklF",
+                      "name": "fbL1",
+                      "fill": "#6B5040",
+                      "content": "Datenschutz",
+                      "fontFamily": "Inter",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "pa52f",
+                      "name": "fbL2",
+                      "fill": "#6B5040",
+                      "content": "Impressum",
+                      "fontFamily": "Inter",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "l6kQu",
+                      "name": "fbL3",
+                      "fill": "#6B5040",
+                      "content": "AGB",
+                      "fontFamily": "Inter",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "61gMO",
+      "x": 1540,
+      "y": 0,
+      "name": "Käse Shop — Erzeuger Detail",
+      "width": 1440,
+      "fill": "#F9F6F1",
+      "layout": "vertical",
+      "children": [
+        {
+          "type": "frame",
+          "id": "0szEs",
+          "name": "Navigation",
+          "width": "fill_container",
+          "height": 80,
+          "fill": "#F9F6F1",
+          "padding": [
+            0,
+            64
+          ],
+          "justifyContent": "space_between",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "mfdHR",
+              "name": "logo2",
+              "fill": "#2C2416",
+              "content": "Käserei",
+              "fontFamily": "Playfair Display",
+              "fontSize": 28,
+              "fontWeight": "normal",
+              "fontStyle": "italic"
+            },
+            {
+              "type": "frame",
+              "id": "eXhpw",
+              "name": "navLinks2",
+              "gap": 48,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "MM94N",
+                  "name": "navl1",
+                  "fill": "#2C2416",
+                  "content": "Sortiment",
+                  "fontFamily": "Inter",
+                  "fontSize": 15,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "GqkT7",
+                  "name": "navl2",
+                  "fill": "#2C2416",
+                  "content": "Erzeuger",
+                  "fontFamily": "Inter",
+                  "fontSize": 15,
+                  "fontWeight": "600"
+                },
+                {
+                  "type": "text",
+                  "id": "J0BhN",
+                  "name": "navl3",
+                  "fill": "#2C2416",
+                  "content": "Wissen",
+                  "fontFamily": "Inter",
+                  "fontSize": 15,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "nCzYg",
+                  "name": "navl4",
+                  "fill": "#2C2416",
+                  "content": "Über uns",
+                  "fontFamily": "Inter",
+                  "fontSize": 15,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "04htO",
+              "name": "navRight2",
+              "gap": 24,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "icon_font",
+                  "id": "WhHSN",
+                  "name": "srchBtn2",
+                  "width": 22,
+                  "height": 22,
+                  "iconFontName": "search",
+                  "iconFontFamily": "lucide",
+                  "fill": "#2C2416"
+                },
+                {
+                  "type": "frame",
+                  "id": "cSzGa",
+                  "name": "cartBtn2",
+                  "fill": "#2C2416",
+                  "cornerRadius": 2,
+                  "padding": [
+                    10,
+                    20
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "7pswN",
+                      "name": "cartTxt2",
+                      "fill": "#F9F6F1",
+                      "content": "Warenkorb",
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "500"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "yY8ze",
+          "name": "breadcrumb",
+          "width": "fill_container",
+          "fill": "#EDE6DA",
+          "gap": 8,
+          "padding": [
+            12,
+            64
+          ],
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "1UjQk",
+              "name": "bcHome",
+              "fill": "#7A6040",
+              "content": "Startseite",
+              "fontFamily": "Inter",
+              "fontSize": 13,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "icon_font",
+              "id": "BKvX0",
+              "name": "bcSep",
+              "width": 14,
+              "height": 14,
+              "iconFontName": "chevron-right",
+              "iconFontFamily": "lucide",
+              "fill": "#A08060"
+            },
+            {
+              "type": "text",
+              "id": "LAvS2",
+              "name": "bcSec",
+              "fill": "#7A6040",
+              "content": "Erzeuger",
+              "fontFamily": "Inter",
+              "fontSize": 13,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "icon_font",
+              "id": "6NVo0",
+              "name": "bcSep2",
+              "width": 14,
+              "height": 14,
+              "iconFontName": "chevron-right",
+              "iconFontFamily": "lucide",
+              "fill": "#A08060"
+            },
+            {
+              "type": "text",
+              "id": "w7Nuu",
+              "name": "bcCurr",
+              "fill": "#2C2416",
+              "content": "Alpenwiese Sennerei",
+              "fontFamily": "Inter",
+              "fontSize": 13,
+              "fontWeight": "500"
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "WrrHM",
+          "name": "Main Content",
+          "width": "fill_container",
+          "gap": 40,
+          "padding": [
+            40,
+            64
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "iq3pe",
+              "name": "Left Column",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 32,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "EXqaO",
+                  "name": "Livestream",
+                  "clip": true,
+                  "width": "fill_container",
+                  "fill": "#1A1208",
+                  "cornerRadius": 6,
+                  "layout": "vertical",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "QaCGg",
+                      "name": "lsTopBar",
+                      "width": "fill_container",
+                      "padding": [
+                        14,
+                        20
+                      ],
+                      "justifyContent": "space_between",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "ANJkm",
+                          "name": "lsLiveBadge",
+                          "fill": "#E05A2B",
+                          "cornerRadius": 20,
+                          "gap": 8,
+                          "padding": [
+                            6,
+                            14
+                          ],
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "ellipse",
+                              "id": "JQ4Oc",
+                              "name": "lsLiveDot",
+                              "fill": "#FFFFFF",
+                              "width": 7,
+                              "height": 7
+                            },
+                            {
+                              "type": "text",
+                              "id": "yb3ad",
+                              "name": "lsLiveTxt",
+                              "fill": "#FFFFFF",
+                              "content": "LIVE",
+                              "fontFamily": "Inter",
+                              "fontSize": 12,
+                              "fontWeight": "600"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "djw7c",
+                          "name": "lsViewers",
+                          "gap": 8,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "icon_font",
+                              "id": "Uj27g",
+                              "name": "lsViewIcon",
+                              "width": 16,
+                              "height": 16,
+                              "iconFontName": "eye",
+                              "iconFontFamily": "lucide",
+                              "fill": "#FFFFFF"
+                            },
+                            {
+                              "type": "text",
+                              "id": "DyTQd",
+                              "name": "lsViewTxt",
+                              "fill": "#FFFFFF",
+                              "content": "1.247 Zuschauer",
+                              "fontFamily": "Inter",
+                              "fontSize": 13,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "aDUNp",
+                      "name": "Video Area",
+                      "metadata": {
+                        "type": "unsplash",
+                        "username": "timmudd",
+                        "link": "https://unsplash.com/@timmudd",
+                        "author": "Tim Mudd"
+                      },
+                      "clip": true,
+                      "width": "fill_container",
+                      "height": 480,
+                      "fill": {
+                        "type": "image",
+                        "enabled": true,
+                        "url": "./images/generated-1772109273704.png",
+                        "mode": "fill"
+                      },
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "sj31T",
+                          "name": "lsVideoOverlay",
+                          "width": "fill_container",
+                          "height": "fill_container",
+                          "fill": "#00000025",
+                          "layout": "vertical",
+                          "justifyContent": "center",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "icon_font",
+                              "id": "GJHvK",
+                              "name": "lsPlayIcon",
+                              "width": 72,
+                              "height": 72,
+                              "iconFontName": "circle-play",
+                              "iconFontFamily": "lucide",
+                              "fill": "#FFFFFF90"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "j19aX",
+                      "name": "lsBottomBar",
+                      "width": "fill_container",
+                      "fill": "#0D0A06",
+                      "padding": [
+                        14,
+                        20
+                      ],
+                      "justifyContent": "space_between",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "gMCSa",
+                          "name": "lsTimestamp",
+                          "fill": "#A08060",
+                          "content": "Gestartet um 09:30 Uhr",
+                          "fontFamily": "Inter",
+                          "fontSize": 12,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "t08AH",
+                          "name": "lsActions",
+                          "gap": 16,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "icon_font",
+                              "id": "cpUQl",
+                              "name": "lsShare",
+                              "width": 18,
+                              "height": 18,
+                              "iconFontName": "share-2",
+                              "iconFontFamily": "lucide",
+                              "fill": "#A08060"
+                            },
+                            {
+                              "type": "icon_font",
+                              "id": "SaGSf",
+                              "name": "lsFullscreen",
+                              "width": 18,
+                              "height": 18,
+                              "iconFontName": "maximize",
+                              "iconFontFamily": "lucide",
+                              "fill": "#A08060"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "xoAkQ",
+                  "name": "Aktuelle Produkte",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 24,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "6FIcA",
+                      "name": "prodHeader",
+                      "width": "fill_container",
+                      "justifyContent": "space_between",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "JNuU1",
+                          "name": "prodTitle",
+                          "fill": "#2C2416",
+                          "content": "Aktuelles Angebot",
+                          "fontFamily": "Playfair Display",
+                          "fontSize": 26,
+                          "fontWeight": "normal",
+                          "fontStyle": "italic"
+                        },
+                        {
+                          "type": "text",
+                          "id": "sP9W6",
+                          "name": "prodCount",
+                          "fill": "#7A6040",
+                          "content": "12 Produkte",
+                          "fontFamily": "Inter",
+                          "fontSize": 13,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "cR0GB",
+                      "name": "prodGrid",
+                      "width": "fill_container",
+                      "gap": 20,
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "WkZz7",
+                          "name": "p1",
+                          "clip": true,
+                          "width": "fill_container",
+                          "fill": "#FFFFFF",
+                          "cornerRadius": 4,
+                          "layout": "vertical",
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "HJafG",
+                              "name": "p1Img",
+                              "metadata": {
+                                "type": "unsplash",
+                                "username": "meizhilang",
+                                "link": "https://unsplash.com/@meizhilang",
+                                "author": "Meizhi Lang"
+                              },
+                              "clip": true,
+                              "width": "fill_container",
+                              "height": 180,
+                              "fill": {
+                                "type": "image",
+                                "enabled": true,
+                                "url": "https://images.unsplash.com/photo-1698682785446-aace9f83eea9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzIxMDkxOTB8&ixlib=rb-4.1.0&q=80&w=1080",
+                                "mode": "fill"
+                              }
+                            },
+                            {
+                              "type": "frame",
+                              "id": "tDh6I",
+                              "name": "p1Body",
+                              "width": "fill_container",
+                              "layout": "vertical",
+                              "gap": 8,
+                              "padding": 16,
+                              "children": [
+                                {
+                                  "type": "frame",
+                                  "id": "2Bi26",
+                                  "name": "p1Badge",
+                                  "fill": "#E8DFD0",
+                                  "cornerRadius": 2,
+                                  "padding": [
+                                    3,
+                                    8
+                                  ],
+                                  "children": [
+                                    {
+                                      "type": "text",
+                                      "id": "W8VOc",
+                                      "name": "p1BadgeTxt",
+                                      "fill": "#7A6040",
+                                      "content": "Hartkäse",
+                                      "fontFamily": "Inter",
+                                      "fontSize": 10,
+                                      "fontWeight": "500"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "evQ6e",
+                                  "name": "p1Name",
+                                  "fill": "#2C2416",
+                                  "textGrowth": "fixed-width",
+                                  "width": 180,
+                                  "content": "Bergkäse Alpin\n12 Monate gereift",
+                                  "lineHeight": 1.3,
+                                  "fontFamily": "Playfair Display",
+                                  "fontSize": 15,
+                                  "fontWeight": "normal",
+                                  "fontStyle": "italic"
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "l3J4B",
+                                  "name": "p1Price",
+                                  "fill": "#2C2416",
+                                  "content": "€ 8,90 / 200g",
+                                  "fontFamily": "Inter",
+                                  "fontSize": 15,
+                                  "fontWeight": "600"
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "793eG",
+                                  "name": "p1Btn",
+                                  "width": "fill_container",
+                                  "fill": "#2C2416",
+                                  "cornerRadius": 2,
+                                  "padding": [
+                                    10,
+                                    0
+                                  ],
+                                  "justifyContent": "center",
+                                  "alignItems": "center",
+                                  "children": [
+                                    {
+                                      "type": "text",
+                                      "id": "ZxYd2",
+                                      "name": "p1BtnTxt",
+                                      "fill": "#F9F6F1",
+                                      "content": "In den Warenkorb",
+                                      "fontFamily": "Inter",
+                                      "fontSize": 12,
+                                      "fontWeight": "500"
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "KBSg9",
+                          "name": "p2",
+                          "clip": true,
+                          "width": "fill_container",
+                          "fill": "#FFFFFF",
+                          "cornerRadius": 4,
+                          "layout": "vertical",
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "KKO7k",
+                              "name": "p2Img",
+                              "metadata": {
+                                "type": "unsplash",
+                                "username": "christinadera",
+                                "link": "https://unsplash.com/@christinadera",
+                                "author": "Christina Deravedisian"
+                              },
+                              "clip": true,
+                              "width": "fill_container",
+                              "height": 180,
+                              "fill": {
+                                "type": "image",
+                                "enabled": true,
+                                "url": "https://images.unsplash.com/photo-1661349008073-136bed6e6788?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzIxMDkyMDB8&ixlib=rb-4.1.0&q=80&w=1080",
+                                "mode": "fill"
+                              }
+                            },
+                            {
+                              "type": "frame",
+                              "id": "SAJFj",
+                              "name": "p2Body",
+                              "width": "fill_container",
+                              "layout": "vertical",
+                              "gap": 8,
+                              "padding": 16,
+                              "children": [
+                                {
+                                  "type": "frame",
+                                  "id": "DEArl",
+                                  "name": "p2Badge",
+                                  "fill": "#E8DFD0",
+                                  "cornerRadius": 2,
+                                  "padding": [
+                                    3,
+                                    8
+                                  ],
+                                  "children": [
+                                    {
+                                      "type": "text",
+                                      "id": "kK1YA",
+                                      "name": "p2BadgeTxt",
+                                      "fill": "#7A6040",
+                                      "content": "Weichkäse",
+                                      "fontFamily": "Inter",
+                                      "fontSize": 10,
+                                      "fontWeight": "500"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "ns7gL",
+                                  "name": "p2Name",
+                                  "fill": "#2C2416",
+                                  "textGrowth": "fixed-width",
+                                  "width": 180,
+                                  "content": "Sennerei Brie\nSahnig & mild",
+                                  "lineHeight": 1.3,
+                                  "fontFamily": "Playfair Display",
+                                  "fontSize": 15,
+                                  "fontWeight": "normal",
+                                  "fontStyle": "italic"
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "pLhVz",
+                                  "name": "p2Price",
+                                  "fill": "#2C2416",
+                                  "content": "€ 6,50 / 150g",
+                                  "fontFamily": "Inter",
+                                  "fontSize": 15,
+                                  "fontWeight": "600"
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "9gFWI",
+                                  "name": "p2Btn",
+                                  "width": "fill_container",
+                                  "fill": "#2C2416",
+                                  "cornerRadius": 2,
+                                  "padding": [
+                                    10,
+                                    0
+                                  ],
+                                  "justifyContent": "center",
+                                  "alignItems": "center",
+                                  "children": [
+                                    {
+                                      "type": "text",
+                                      "id": "GA77i",
+                                      "name": "p2BtnTxt",
+                                      "fill": "#F9F6F1",
+                                      "content": "In den Warenkorb",
+                                      "fontFamily": "Inter",
+                                      "fontSize": 12,
+                                      "fontWeight": "500"
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "wPaMH",
+                          "name": "p3",
+                          "clip": true,
+                          "width": "fill_container",
+                          "fill": "#FFFFFF",
+                          "cornerRadius": 4,
+                          "layout": "vertical",
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "GLprX",
+                              "name": "p3Img",
+                              "metadata": {
+                                "type": "unsplash",
+                                "username": "nillufar",
+                                "link": "https://unsplash.com/@nillufar",
+                                "author": "nilufar nattaq"
+                              },
+                              "clip": true,
+                              "width": "fill_container",
+                              "height": 180,
+                              "fill": {
+                                "type": "image",
+                                "enabled": true,
+                                "url": "https://images.unsplash.com/photo-1747087478545-915724f594e9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzIxMDkyMDV8&ixlib=rb-4.1.0&q=80&w=1080",
+                                "mode": "fill"
+                              }
+                            },
+                            {
+                              "type": "frame",
+                              "id": "UMfLJ",
+                              "name": "p3Body",
+                              "width": "fill_container",
+                              "layout": "vertical",
+                              "gap": 8,
+                              "padding": 16,
+                              "children": [
+                                {
+                                  "type": "frame",
+                                  "id": "z1Lpl",
+                                  "name": "p3Badge",
+                                  "fill": "#E8DFD0",
+                                  "cornerRadius": 2,
+                                  "padding": [
+                                    3,
+                                    8
+                                  ],
+                                  "children": [
+                                    {
+                                      "type": "text",
+                                      "id": "lnc9m",
+                                      "name": "p3BadgeTxt",
+                                      "fill": "#7A6040",
+                                      "content": "Schnittkäse",
+                                      "fontFamily": "Inter",
+                                      "fontSize": 10,
+                                      "fontWeight": "500"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "4g1CM",
+                                  "name": "p3Name",
+                                  "fill": "#2C2416",
+                                  "textGrowth": "fixed-width",
+                                  "width": 180,
+                                  "content": "Räucherkäse\nWarm & würzig",
+                                  "lineHeight": 1.3,
+                                  "fontFamily": "Playfair Display",
+                                  "fontSize": 15,
+                                  "fontWeight": "normal",
+                                  "fontStyle": "italic"
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "7iDRW",
+                                  "name": "p3Price",
+                                  "fill": "#2C2416",
+                                  "content": "€ 7,20 / 200g",
+                                  "fontFamily": "Inter",
+                                  "fontSize": 15,
+                                  "fontWeight": "600"
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "c7QNE",
+                                  "name": "p3Btn",
+                                  "width": "fill_container",
+                                  "fill": "#2C2416",
+                                  "cornerRadius": 2,
+                                  "padding": [
+                                    10,
+                                    0
+                                  ],
+                                  "justifyContent": "center",
+                                  "alignItems": "center",
+                                  "children": [
+                                    {
+                                      "type": "text",
+                                      "id": "U6s91",
+                                      "name": "p3BtnTxt",
+                                      "fill": "#F9F6F1",
+                                      "content": "In den Warenkorb",
+                                      "fontFamily": "Inter",
+                                      "fontSize": 12,
+                                      "fontWeight": "500"
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "yanDc",
+              "name": "Right Column",
+              "width": 380,
+              "layout": "vertical",
+              "gap": 24,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "MWAoT",
+                  "name": "Seller Info",
+                  "width": "fill_container",
+                  "fill": "#FFFFFF",
+                  "cornerRadius": 6,
+                  "layout": "vertical",
+                  "gap": 20,
+                  "padding": 24,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "tLBV8",
+                      "name": "sellerImgRow",
+                      "gap": 16,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "p3D5G",
+                          "name": "sellerAvatar",
+                          "metadata": {
+                            "type": "unsplash",
+                            "username": "mahsatimas",
+                            "link": "https://unsplash.com/@mahsatimas",
+                            "author": "mahsa timas"
+                          },
+                          "clip": true,
+                          "width": 64,
+                          "height": 64,
+                          "fill": {
+                            "type": "image",
+                            "enabled": true,
+                            "url": "https://images.unsplash.com/photo-1769954559240-6b7d58677b68?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzIxMDkyMTZ8&ixlib=rb-4.1.0&q=80&w=1080",
+                            "mode": "fill"
+                          },
+                          "cornerRadius": 32
+                        },
+                        {
+                          "type": "frame",
+                          "id": "lB2k7",
+                          "name": "sellerMeta",
+                          "layout": "vertical",
+                          "gap": 6,
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "H1Efo",
+                              "name": "sellerNameCard",
+                              "fill": "#2C2416",
+                              "content": "Alpenwiese Sennerei",
+                              "fontFamily": "Playfair Display",
+                              "fontSize": 18,
+                              "fontWeight": "normal",
+                              "fontStyle": "italic"
+                            },
+                            {
+                              "type": "frame",
+                              "id": "dZUEz",
+                              "name": "sellerLocCard",
+                              "gap": 6,
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "icon_font",
+                                  "id": "u13Un",
+                                  "name": "sellerLocIcon2",
+                                  "width": 14,
+                                  "height": 14,
+                                  "iconFontName": "map-pin",
+                                  "iconFontFamily": "lucide",
+                                  "fill": "#7A6040"
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "33Km0",
+                                  "name": "sellerLocTxt2",
+                                  "fill": "#7A6040",
+                                  "content": "Berchtesgaden, Bayern",
+                                  "fontFamily": "Inter",
+                                  "fontSize": 13,
+                                  "fontWeight": "normal"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "tGfJm",
+                      "name": "sellerRating",
+                      "width": "fill_container",
+                      "justifyContent": "space_between",
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "9jPyA",
+                          "name": "ratingBlock",
+                          "layout": "vertical",
+                          "gap": 4,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "xE7vW",
+                              "name": "ratingVal",
+                              "fill": "#2C2416",
+                              "content": "4.9",
+                              "fontFamily": "Playfair Display",
+                              "fontSize": 24,
+                              "fontWeight": "normal",
+                              "fontStyle": "italic"
+                            },
+                            {
+                              "type": "text",
+                              "id": "bzFJY",
+                              "name": "ratingLbl",
+                              "fill": "#7A6040",
+                              "content": "Bewertung",
+                              "fontFamily": "Inter",
+                              "fontSize": 11,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "rectangle",
+                          "id": "IJ7Ke",
+                          "name": "divider1",
+                          "fill": "#E8DFD0",
+                          "width": 1,
+                          "height": 40
+                        },
+                        {
+                          "type": "frame",
+                          "id": "zVmyS",
+                          "name": "yearsBlock",
+                          "layout": "vertical",
+                          "gap": 4,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "0P0S3",
+                              "name": "yearsVal",
+                              "fill": "#2C2416",
+                              "content": "133",
+                              "fontFamily": "Playfair Display",
+                              "fontSize": 24,
+                              "fontWeight": "normal",
+                              "fontStyle": "italic"
+                            },
+                            {
+                              "type": "text",
+                              "id": "Q0p3P",
+                              "name": "yearsLbl",
+                              "fill": "#7A6040",
+                              "content": "Jahre Tradition",
+                              "fontFamily": "Inter",
+                              "fontSize": 11,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "rectangle",
+                          "id": "DQvHC",
+                          "name": "divider2",
+                          "fill": "#E8DFD0",
+                          "width": 1,
+                          "height": 40
+                        },
+                        {
+                          "type": "frame",
+                          "id": "ctGiB",
+                          "name": "prodsBlock",
+                          "layout": "vertical",
+                          "gap": 4,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "TxVq2",
+                              "name": "prodsVal",
+                              "fill": "#2C2416",
+                              "content": "24",
+                              "fontFamily": "Playfair Display",
+                              "fontSize": 24,
+                              "fontWeight": "normal",
+                              "fontStyle": "italic"
+                            },
+                            {
+                              "type": "text",
+                              "id": "DQEuA",
+                              "name": "prodsLbl",
+                              "fill": "#7A6040",
+                              "content": "Produkte",
+                              "fontFamily": "Inter",
+                              "fontSize": 11,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "05v4D",
+                  "name": "Live Chat",
+                  "clip": true,
+                  "width": "fill_container",
+                  "fill": "#FFFFFF",
+                  "cornerRadius": 6,
+                  "layout": "vertical",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "UTNux",
+                      "name": "chatHeader",
+                      "width": "fill_container",
+                      "fill": "#2C2416",
+                      "padding": [
+                        16,
+                        20
+                      ],
+                      "justifyContent": "space_between",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "MHe8c",
+                          "name": "chatTitle",
+                          "fill": "#F9F6F1",
+                          "content": "Live Chat",
+                          "fontFamily": "Playfair Display",
+                          "fontSize": 16,
+                          "fontWeight": "normal",
+                          "fontStyle": "italic"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "lzxPl",
+                          "name": "chatOnline",
+                          "gap": 6,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "ellipse",
+                              "id": "iuI4b",
+                              "name": "chatDot",
+                              "fill": "#6BBF6B",
+                              "width": 7,
+                              "height": 7
+                            },
+                            {
+                              "type": "text",
+                              "id": "fvs5b",
+                              "name": "chatOnlineTxt",
+                              "fill": "#A08060",
+                              "content": "47 online",
+                              "fontFamily": "Inter",
+                              "fontSize": 12,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "b2XHq",
+                      "name": "chatMsgs",
+                      "width": "fill_container",
+                      "fill": "#F9F6F1",
+                      "layout": "vertical",
+                      "gap": 14,
+                      "padding": 16,
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "qu8NP",
+                          "name": "msg1",
+                          "width": "fill_container",
+                          "gap": 10,
+                          "children": [
+                            {
+                              "type": "ellipse",
+                              "id": "H3x7s",
+                              "name": "msg1Avatar",
+                              "fill": "#C8A97E",
+                              "width": 30,
+                              "height": 30
+                            },
+                            {
+                              "type": "frame",
+                              "id": "j2Pfy",
+                              "name": "msg1Bubble",
+                              "layout": "vertical",
+                              "gap": 4,
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "pa6Sd",
+                                  "name": "msg1User",
+                                  "fill": "#7A6040",
+                                  "content": "Maria K.",
+                                  "fontFamily": "Inter",
+                                  "fontSize": 11,
+                                  "fontWeight": "600"
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "IjIXi",
+                                  "name": "msg1Text",
+                                  "fill": "#2C2416",
+                                  "textGrowth": "fixed-width",
+                                  "width": 240,
+                                  "content": "Wird der Bergkäse heute noch frisch gemacht? 🧀",
+                                  "lineHeight": 1.4,
+                                  "fontFamily": "Inter",
+                                  "fontSize": 13,
+                                  "fontWeight": "normal"
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "gcJtc",
+                          "name": "msg2",
+                          "width": "fill_container",
+                          "gap": 10,
+                          "children": [
+                            {
+                              "type": "ellipse",
+                              "id": "iChSo",
+                              "name": "msg2Avatar",
+                              "fill": "#A08060",
+                              "width": 30,
+                              "height": 30
+                            },
+                            {
+                              "type": "frame",
+                              "id": "7v6WQ",
+                              "name": "msg2Bubble",
+                              "layout": "vertical",
+                              "gap": 4,
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "zT9oA",
+                                  "name": "msg2User",
+                                  "fill": "#7A6040",
+                                  "content": "Thomas B.",
+                                  "fontFamily": "Inter",
+                                  "fontSize": 11,
+                                  "fontWeight": "600"
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "jqCHm",
+                                  "name": "msg2Text",
+                                  "fill": "#2C2416",
+                                  "textGrowth": "fixed-width",
+                                  "width": 240,
+                                  "content": "Schöner Blick in den Kuhstall heute Morgen!",
+                                  "lineHeight": 1.4,
+                                  "fontFamily": "Inter",
+                                  "fontSize": 13,
+                                  "fontWeight": "normal"
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "520aT",
+                          "name": "msg3",
+                          "width": "fill_container",
+                          "gap": 10,
+                          "children": [
+                            {
+                              "type": "ellipse",
+                              "id": "bAYZS",
+                              "name": "msg3Avatar",
+                              "fill": "#7A6040",
+                              "width": 30,
+                              "height": 30
+                            },
+                            {
+                              "type": "frame",
+                              "id": "sGgll",
+                              "name": "msg3Bubble",
+                              "layout": "vertical",
+                              "gap": 4,
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "g5Ow6",
+                                  "name": "msg3User",
+                                  "fill": "#E05A2B",
+                                  "content": "Alpenwiese (Erzeuger)",
+                                  "fontFamily": "Inter",
+                                  "fontSize": 11,
+                                  "fontWeight": "600"
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "YS8Ut",
+                                  "name": "msg3Text",
+                                  "fill": "#2C2416",
+                                  "textGrowth": "fixed-width",
+                                  "width": 240,
+                                  "content": "Ja Maria! In einer Stunde beginnen wir mit dem Käsebruch 🙌",
+                                  "lineHeight": 1.4,
+                                  "fontFamily": "Inter",
+                                  "fontSize": 13,
+                                  "fontWeight": "normal"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "Zscpj",
+                      "name": "chatInput",
+                      "width": "fill_container",
+                      "fill": "#FFFFFF",
+                      "stroke": {
+                        "align": "inside",
+                        "thickness": 1,
+                        "fill": "#E8DFD0"
+                      },
+                      "gap": 12,
+                      "padding": [
+                        12,
+                        16
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "DtW3j",
+                          "name": "chatInputField",
+                          "width": "fill_container",
+                          "height": 38,
+                          "fill": "#F9F6F1",
+                          "cornerRadius": 20,
+                          "padding": [
+                            8,
+                            14
+                          ],
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "WoLy4",
+                              "name": "chatInputPlaceholder",
+                              "fill": "#A08060",
+                              "content": "Nachricht schreiben...",
+                              "fontFamily": "Inter",
+                              "fontSize": 13,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "VlkDA",
+                          "name": "chatSendBtn",
+                          "fill": "#2C2416",
+                          "cornerRadius": 20,
+                          "padding": [
+                            8,
+                            16
+                          ],
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "icon_font",
+                              "id": "kMkeK",
+                              "name": "chatSendIcon",
+                              "width": 16,
+                              "height": 16,
+                              "iconFontName": "send",
+                              "iconFontFamily": "lucide",
+                              "fill": "#F9F6F1"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
